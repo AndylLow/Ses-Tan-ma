@@ -22,6 +22,7 @@ namespace Ses_Tanıma
         {
             pictureBoxMic.Visible = false;
             pictureBoxPause.Visible = true;
+            sestanima_ayarlar();
             recognitionEngine.RecognizeAsync();
         }
 
